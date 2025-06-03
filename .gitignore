@@ -50,3 +50,12 @@ data/processed/*
 # OS
 .DS_Store
 Thumbs.db
+# Data files (large)
+# *.csv  # Comment this out to allow CSV files
+*.json
+*.parquet
+data/raw/*
+!data/raw/.gitkeep
+!data/raw/raw_analyst_ratings.csv  # Allow the news data file
+data/processed/*
+!data/processed/.gitkeep
