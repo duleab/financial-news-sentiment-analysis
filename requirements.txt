@@ -10,3 +10,5 @@ yfinance>=0.1.87
 TA-Lib>=0.4.25
 jupyter>=1.0.0
 requests>=2.28.0
+pytest>=7.0.0
+pytest-cov>=4.0.0
